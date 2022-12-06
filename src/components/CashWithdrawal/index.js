@@ -28,7 +28,7 @@ class CashWithdrawal extends Component {
             <p className="choose-amt">Choose sum (IN RUPEES) </p>
             <ul className="withdrawal-amt">
               {denominationsList.map(eachValue => (
-                <DenominationItem eachValue={eachValue} key={eachValue.id} />
+                <DenominationItem amount={eachValue} key={eachValue.id} />
               ))}
             </ul>
           </div>
