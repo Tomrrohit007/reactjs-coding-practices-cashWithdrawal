@@ -1,0 +1,61 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  color: white;
+}
+.card {
+  padding: 30px;
+  background-color: #150b3e;
+  width: 460px;
+  height: 520px;
+  border-radius: 12px;
+}
+.name-container {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  color: #7c3aed;
+}
+.username {
+  font-size: 24px;
+  color: #d4d2db;
+}
+.user-details {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #585076;
+  font-size: 22px;
+}
+.balance {
+  font-size: 32px;
+  color: #d4d2db;
+}
+.text {
+  color: #585076;
+  font-size: 14px;
+}
+.balance-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.withdrawal {
+  font-size: 28px;
+  color: #d4d2db;
+}
+.choose-amt {
+  font-size: 14px;
+  color: #585076;
+}
